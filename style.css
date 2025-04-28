@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+/* nav start */
+.nav {
+    display: inline-block;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.nav>.logo-title {
+    font-family: Old English Text MT, cursive;
+}
+
+.list {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav>ul li {
+    margin: 20px 30px;
+}
+
+.nav>ul li a {
+    text-decoration: none;
+    color: rgb(48, 47, 33);
+    font-family: cursive;
+    font-weight: 900;
+    font-size: large;
+}
+
+/* nav end */
+/* about start */
+.about {
+    display: flex;
+    align-items: center;
+    margin: 20px 30px;
+    flex-wrap: wrap;
+    
+}
+
+.para {
+   flex: 1;
+    max-height: 250px;
+    padding: 50px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.img-text{
+    flex: 1;
+    display: block;
+    text-align: center;
+    /* padding:20px 100px;
+    margin-right:137px; */
+}
+
+/* about end */
+/* card start */
+.dishes>ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.dishes>ul>li a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgb(48, 47, 33);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    color: wheat;
+    font-family: cursive;
+
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.card-btn {
+    background-color: burlywood;
+    padding: 10px 30px;
+    color: rgb(48, 47, 33);
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.card-btn:hover {
+    background-color: rgb(48, 47, 33);
+    color: burlywood;
+    outline: 2px solid burlywood;
+}
+
+/* card end */
+/* footer start */
+.footer {
+    background-color: #000000;
+
+}
+
+.footer>.copyright {
+    color: burlywood;
+    padding: 40px;
+    text-align: center;
+}
+
+/* footer end */

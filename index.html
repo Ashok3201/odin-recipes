@@ -4,35 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <title>Indian Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <hr>
-    <ul>
-        <li>
-            <a href="recipes/Gulab_Jamun.html">
-                <h2>Gulab Jamun</h2>
-                <img src="./img/gulab_jamun.jpeg" alt="Gulab Jamun image" width="100" height="100">
-            </a>
+    <div class="nav">
+        <div class="logo-title">
+            <h1>Indian Recipes</h1>
+        </div>
+        <ul class="list">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Dishes">Dishes</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="about">
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nam alias obcaecati consequatur
+            deserunt qui nobis aut enim ea ut voluptate aperiam, tempore inventore rem quasi placeat animi fugiat, eos
+            nesciunt laboriosam perspiciatis illo harum earum! Accusantium quasi optio quibusdam, consectetur alias
+            maiores atque, nam consequatur, odio deserunt provident tempore.</p>
+        <div class="img-text">
+            <img class="badge-img" src="./img/badge-foundations.svg" alt="img/badge-foundations">
 
-        </li>
-        <li>
-            <a href="recipes/Jalebi.html">
-                <h2>Jalebi</h2>
-                <img src="./img/jalebi.jpeg" alt="Jalebi image" width="100" height="100">
-            </a>
+            <h3>The Odin Project</h3>
+            <h5>Foundations Curriculum</h5>
+        </div>
+    </div>
+    <div class="dishes" id="Dishes">
+        <ul>
+            <li>
+                <div class="card">
 
-        </li>
-        <li>
-            <a href="recipes/Kheer.html">
-                <h2>Kheer (Rice Pudding)</h2>
-                <img src="./img/kheer.avif" alt="kheer image" width="100" height="100">
-            </a>
+                    <h2 class="card-title">Gulab Jamun</h2>
+                    <img class="card-img" src="./img/dishes_img/gulab_jamun.jpeg" alt="Gulab Jamun image">
+                    <a class="card-btn" href="recipes-pages/Gulab_Jamun.html">click</a>
+                </div>
 
-        </li>
-    </ul>
+            </li>
+            <li>
+                <div class="card">
+
+                    <h2 class="card-title">Jalebi</h2>
+                    <img class="card-img" src="./img/dishes_img/jalebi_2.jpg" alt="Jalebi image">
+                    <a class="card-btn" href="recipes-pages/Jalebi.html">click</a>
+                </div>
+
+            </li>
+            <li>
+                <div class="card">
+
+                    <h2 class="card-title">Kheer</h2>
+                    <img class="card-img" src="./img/dishes_img/kheer.avif" alt="kheer image">
+                    <a class="card-btn" href="recipes-pages/Kheer.html">click</a>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="copyright">© 2025 Indian Recipes. All Rights Reserved</div>
+    </div>
 </body>
 
 </html>
